@@ -1,0 +1,21 @@
+//program to demostret disctructor
+#include<iostream.h>
+#include<conio.h>
+class demo
+{
+	public:
+		~demo();
+};
+demo::~demo()
+{
+	cout<<"Desctructer called";
+}
+void main()
+{
+	clrscr();
+
+	demo d;
+	getch();
+}
+
+
